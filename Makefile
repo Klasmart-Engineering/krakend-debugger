@@ -1,7 +1,7 @@
 all: clean build
 
 build:
-	go build -buildmode=plugin -o <plugin-name>.so .
+	go build -buildmode=plugin -o krakend-debugger.so .
 
 clean:
 	go clean
