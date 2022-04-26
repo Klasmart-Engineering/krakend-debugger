@@ -24,7 +24,9 @@ go build -buildmode=plugin -o yourplugin.so .
 ## Make
 
 The `Makefile` is required as it is used by other tooling (namely the `Dockerfile` for the microgateways) in order to
-keep builds consistent across the company. As such please make sure the `all`, `build` and `clean` targets are all set
+keep builds consistent across the company.
+
+As such please make sure the `all`, `build` and `clean` targets are all set
 up to run correctly. Please feel free to add additional targets as required for your project, but please keep the 3
 targets above limited in their scope.
 
