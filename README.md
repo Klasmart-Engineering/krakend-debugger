@@ -4,7 +4,7 @@ This repository contains a template project for creating custom KrakenD plugins.
 
 Any microgateway that wants to leverage a plugin should initialize a git-submodule in their `/plugins` directory with the respective plugin
 
-**NOTE:** NOT for production use
+**NOTE:** **NOT** for production use
 
 ## Steps
 
